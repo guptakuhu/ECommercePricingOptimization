@@ -1,0 +1,57 @@
+33.8s 1 <class 'pandas.core.frame.DataFrame'>
+33.8s 2 RangeIndex: 676 entries, 0 to 675
+33.8s 3 Data columns (total 30 columns):
+33.8s 4 #   Column                      Non-Null Count  Dtype
+33.8s 5 ---  ------                      --------------  -----
+33.8s 6 0   product_id                  676 non-null    object
+33.8s 7 1   product_category_name       676 non-null    object
+33.8s 8 2   month_year                  676 non-null    object
+33.8s 9 3   qty                         676 non-null    int64
+33.8s 10 4   total_price                 676 non-null    float64
+33.8s 11 5   freight_price               676 non-null    float64
+33.8s 12 6   unit_price                  676 non-null    float64
+33.8s 13 7   product_name_lenght         676 non-null    int64
+33.8s 14 8   product_description_lenght  676 non-null    int64
+33.8s 15 9   product_photos_qty          676 non-null    int64
+33.8s 16 10  product_weight_g            676 non-null    int64
+33.8s 17 11  product_score               676 non-null    float64
+33.8s 18 12  customers                   676 non-null    int64
+33.8s 19 13  weekday                     676 non-null    int64
+33.8s 20 14  weekend                     676 non-null    int64
+33.8s 21 15  holiday                     676 non-null    int64
+33.8s 22 16  month                       676 non-null    int64
+33.8s 23 17  year                        676 non-null    int64
+33.8s 24 18  s                           676 non-null    float64
+33.8s 25 19  volume                      676 non-null    int64
+33.8s 26 20  comp_1                      676 non-null    float64
+33.8s 27 21  ps1                         676 non-null    float64
+33.8s 28 22  fp1                         676 non-null    float64
+33.8s 29 23  comp_2                      676 non-null    float64
+33.8s 30 24  ps2                         676 non-null    float64
+33.8s 31 25  fp2                         676 non-null    float64
+33.8s 32 26  comp_3                      676 non-null    float64
+33.8s 33 27  ps3                         676 non-null    float64
+33.8s 34 28  fp3                         676 non-null    float64
+33.8s 35 29  lag_price                   676 non-null    float64
+33.8s 36 dtypes: float64(15), int64(12), object(3)
+33.8s 37 memory usage: 158.6+ KB
+33.9s 38 Columns: 30
+33.9s 39 Samples: 676
+38.7s 40 R2 score: 0.9653993851444929
+38.8s 41 Mean Absolute Error: 10.038151266352664
+39.8s 42 -------------------- LARGEST ERROR PREDICTION --------------------
+39.8s 43 
+39.8s 44 
+39.9s 45 -------------------- SMALLEST ERROR PREDICTION --------------------
+39.9s 46 
+39.9s 47 
+46.2s 48 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2935: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+46.2s 49 FutureWarning,
+46.2s 50 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+46.8s 51 [NbConvertApp] Writing 1342983 bytes to __notebook__.ipynb
+48.5s 52 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2935: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+48.5s 53 FutureWarning,
+48.5s 54 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+49.6s 55 [NbConvertApp] Support files will be in __results___files/
+49.6s 56 [NbConvertApp] Making directory __results___files
+49.6s 57 [NbConvertApp] Writing 1468962 bytes to __results__.html
