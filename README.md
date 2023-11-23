@@ -130,33 +130,32 @@ In summary, our solution combines probabilistic programming (Pyro) with traditio
 
 ![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/6ec17d08-5336-44f2-87b6-243020b37299)
 
-
 Modularity: The code starts by importing external libraries, demonstrating modularity by using pre-built modules for data manipulation (pandas), numerical operations (torch), probabilistic programming (pyro), and machine learning utilities (MinMaxScaler, train_test_split, mean_squared_error).
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/c4a8b807-d669-4bf8-950c-164785c1e194)
 
 Abstraction: The code abstracts away the details of loading the dataset into a Pandas DataFrame. The use of pd.read_csv abstracts the complexity of reading data from a CSV file.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/6bdd09c7-746e-4d16-ac83-39d2d1f8fa36)
 
 Abstraction: The use of MinMaxScaler abstracts the scaling process for numeric features. This encapsulates the details of normalization. 
 Modularity: The preprocessing steps are organized into a separate section, promoting modularity by isolating data preparation logic.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/ac02163d-c9b9-4f6a-ae89-df7fb10b7e23)
 
 Abstraction: The code abstracts the process of splitting the data into training and testing sets using train_test_split. This hides the details of data partitioning.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/f35a3e90-2d81-435e-a13d-172e54fd3e71)
 
 Abstraction: The PyroPricingModel class abstracts the definition of the probabilistic pricing model. This encapsulates the details of the model architecture. 
 Modularity: The model definition is modular, with a clear separation between model architecture and training logic.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/7fc106d8-8e39-48fa-8409-a03f61ab86ff)
 
 Modularity: The training logic is encapsulated within the train_model method, promoting modularity by separating training details from the model definition. 
 Abstraction: The training process is abstracted away into a function, hiding the details of how the model is trained.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/b0563008-1854-4855-8577-f1bd0265ebc0)
 
 Modularity: The prediction and evaluation steps are encapsulated in the predict_prices method, promoting modularity by isolating prediction and evaluation logic. 
 Abstraction: The details of obtaining predictions and evaluating model performance are abstracted into functions, making the main script more readable.
@@ -165,53 +164,40 @@ The code demonstrates principles of programming languages (POPL) aspects such as
 
 2) Traditional Python Code
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/4b4c9ba4-fa0e-4ff4-8435-f13ffa59828a)
 
 Modularity: The code starts by importing external libraries, demonstrating modularity by using pre-built modules for data manipulation (pandas), machine learning model (LinearRegression), and model evaluation (train_test_split, mean_squared_error).
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/41b89ce5-ce15-4b76-9374-fd289244696a)
 
 Abstraction: The code abstracts away the details of loading the dataset into a Pandas DataFrame using pd.read_csv. This encapsulates the complexity of reading data from a CSV file.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/86a59cd7-a5e8-45ae-a0c6-c981ad967e9e)
 
 Abstraction: The use of pd.get_dummies abstracts the process of one-hot encoding categorical features. This hides the details of the encoding process.
 Modularity: The preprocessing steps are organized into a separate section, promoting modularity by isolating data preparation logic.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/30fdf7cd-7681-480d-856c-5b925d202242)
 
 Abstraction: The code abstracts the process of splitting the data into training and testing sets using train_test_split. This hides the details of data partitioning.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/4134fb51-b601-4300-874b-cd981151d488)
 
 Abstraction: The code abstracts the training of a linear regression model using LinearRegression and fit method. This encapsulates the details of the training process.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/e6570207-491a-4d50-bc13-49713d828b3e)
 
 Abstraction: The code abstracts the prediction process using the trained model's predict method. This hides the details of the prediction process.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/5e290bfb-8680-4392-80cf-1d13d89a91b3)
 
 Modularity: The evaluation logic is encapsulated in the calculation of mean squared error, promoting modularity by isolating evaluation details.
 Abstraction: The details of calculating and printing mean squared error are abstracted into a few lines, making the code more readable.
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/70fc1f10-1a3a-47e3-9b00-a7283c139def)
 
 Modularity: The code encapsulates the process of extracting and printing pricing coefficients, promoting modularity by isolating this logic. 
 Abstraction: The details of obtaining and printing pricing coefficients are abstracted into a few lines, making the code more readable.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -259,7 +245,7 @@ The probabilistic model might benefit from GPU acceleration. If you have access 
 In summary, the runtime performance depends on your specific use case and the characteristics of your data. It's recommended to test both models on your specific dataset to determine which one performs better in terms of both accuracy and runtime. For small to medium-sized datasets, the difference in runtime might not be a critical factor, and you can choose the model based on its ability to capture the underlying patterns in the data.
 
 
-
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/1b868f17-bb86-4a63-b9a9-532654c04876)
 
 
 Findings:
@@ -308,33 +294,12 @@ Growing community with a focus on deep probabilistic programming in PyTorch.
 
 
 
+5. Verification and Results :
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5. Verification and Results : 
 Comparison tests were conducted between the pyro-based model and traditional python model. ‘Comparion.py’ was used in order to make statistical comparisons between the results provided by the 2 models.
 
 We have added our results as graphs in the /doc folder, be welcome to check them out!
+
 Conclusion:
 Based on the comparison, both Python with a standard probabilistic programming library and Pyro offer unique advantages and considerations for implementing probabilistic programming in the context of E-Commerce pricing strategies. Python provides a more straightforward entry point for users familiar with the language, while Pyro, with its integration with PyTorch, offers enhanced expressiveness, particularly for deep probabilistic models.
 
@@ -351,12 +316,8 @@ In conclusion, the selection between Python and Pyro should align with the speci
 
 
 
+6. Potential for Future Work :
 
-
-
-
-
-6. Potential for Future Work : 
 Given more time, we would explore:
 Inference Algorithms: Investigate advanced probabilistic inference techniques.
 Domain-Specific Extensions: Extend the model for specific e-commerce niches (e.g., fashion, electronics).
