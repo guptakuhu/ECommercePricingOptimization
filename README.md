@@ -13,7 +13,7 @@ A structured comparison between Python (with a standard library) and Pyro, evalu
 Demonstrates the application of fundamental programming principles, including abstraction, modularity, and readability.
 
 
-1. Problem Statement: Optimizing E-Commerce Pricing Strategies Using Probabilistic Programming
+## 1. Problem Statement: Optimizing E-Commerce Pricing Strategies Using Probabilistic Programming
 
 Introduction
 In the dynamic landscape of e-commerce, pricing strategies play a pivotal role in determining a business’s profitability. The challenge lies in striking a delicate balance: setting prices that attract customers, maximize revenue, and adapt to ever-changing market conditions. Traditional deterministic pricing models fall short in capturing the inherent uncertainty and variability associated with customer behavior, sales patterns, and external factors. Our goal is to develop a sophisticated probabilistic pricing model that optimizes revenue while considering uncertainty and variability. This model will be implemented using both Pyro (a probabilistic programming language) and Python (a general-purpose language). Our focus extends beyond mere comparison; we aim to dissect the technical intricacies and POPL aspects inherent in each approach.
@@ -74,7 +74,7 @@ By comparing Pyro and Python, we aim to provide insights into the best tool for 
 
 
 
-2. Software Architecture of our Solution for Optimizing Pricing Strategies using Pyro vs. Python : 
+## 2. Software Architecture of our Solution for Optimizing Pricing Strategies using Pyro vs. Python : 
 
 ![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/bf7d819d-6a8d-45c8-80a3-bb7faf64deaf)
 
@@ -124,7 +124,7 @@ In summary, our solution combines probabilistic programming (Pyro) with traditio
 
 
 
-3. PoPL Aspects of our Solution to Optimizing Pricing Model : 
+## 3. PoPL Aspects of our Solution to Optimizing Pricing Model : 
 
 1) Pyro-based Model
 
@@ -207,7 +207,7 @@ Abstraction: The details of obtaining and printing pricing coefficients are abst
 
 
 
-4. Comparison between Pyro and Python : 
+## 4. Comparison between Pyro and Python : 
 
 In this project, we undertook the task of optimizing an E-Commerce pricing strategy using probabilistic programming, implementing the solution in both Python with a standard probabilistic programming library and Pyro, a probabilistic programming language built on PyTorch. The comparison aimed to evaluate various aspects, including language paradigms, syntax, inference methods, ease of use, expressiveness, integration with deep learning, community support, and alignment with principles of programming concepts.
 The runtime performance of the two models (Pyro probabilistic model vs. Traditional Linear Regression model) depended on various factors, including the size of our dataset, the complexity of the models, and the efficiency of the underlying libraries.
@@ -294,7 +294,7 @@ Growing community with a focus on deep probabilistic programming in PyTorch.
 
 
 
-5. Verification and Results :
+## 5. Verification and Results :
 
 Comparison tests were conducted between the pyro-based model and traditional python model. ‘Comparion.py’ was used in order to make statistical comparisons between the results provided by the 2 models.
 
@@ -316,7 +316,7 @@ In conclusion, the selection between Python and Pyro should align with the speci
 
 
 
-6. Potential for Future Work :
+## 6. Potential for Future Work :
 
 Given more time, we would explore:
 Inference Algorithms: Investigate advanced probabilistic inference techniques.
