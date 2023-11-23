@@ -13,7 +13,7 @@ A structured comparison between Python (with a standard library) and Pyro, evalu
 Demonstrates the application of fundamental programming principles, including abstraction, modularity, and readability.
 
 
-# 1. Problem Statement: Optimizing E-Commerce Pricing Strategies Using Probabilistic Programming
+## 1. Problem Statement: Optimizing E-Commerce Pricing Strategies Using Probabilistic Programming
 
 Introduction
 In the dynamic landscape of e-commerce, pricing strategies play a pivotal role in determining a business’s profitability. The challenge lies in striking a delicate balance: setting prices that attract customers, maximize revenue, and adapt to ever-changing market conditions. Traditional deterministic pricing models fall short in capturing the inherent uncertainty and variability associated with customer behavior, sales patterns, and external factors. Our goal is to develop a sophisticated probabilistic pricing model that optimizes revenue while considering uncertainty and variability. This model will be implemented using both Pyro (a probabilistic programming language) and Python (a general-purpose language). Our focus extends beyond mere comparison; we aim to dissect the technical intricacies and POPL aspects inherent in each approach.
