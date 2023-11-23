@@ -245,7 +245,7 @@ The probabilistic model might benefit from GPU acceleration. If you have access 
 In summary, the runtime performance depends on your specific use case and the characteristics of your data. It's recommended to test both models on your specific dataset to determine which one performs better in terms of both accuracy and runtime. For small to medium-sized datasets, the difference in runtime might not be a critical factor, and you can choose the model based on its ability to capture the underlying patterns in the data.
 
 
-![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/1b868f17-bb86-4a63-b9a9-532654c04876)
+![image](https://github.com/guptakuhu/ECommercePricingOptimization/assets/80278657/2ad78346-1be9-4753-8924-da1c5227c79c)
 
 
 Findings:
